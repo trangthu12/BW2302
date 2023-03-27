@@ -1,0 +1,78 @@
+#head{
+    width: 1000px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background: blue;
+}
+#content{
+    width: 1000px;
+    min-height: 500px;
+    border: 1px solid #cdcdcd;
+    float: left;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    /* margin-bottom: 5px; */
+}
+#left{
+    width: 200px;
+    height: 500px;
+    border: 1px solid #cdcdcd;
+    float: left;
+    overflow: auto;
+}
+#right{
+    width: 200px;
+    height: 500px;
+    border: 1px solid #cdcdcd;
+    float: right;
+    box-sizing: border-box;
+}
+#center{
+    columns: 600px;
+    /* width: 800px;
+    height: 500px;
+    border: 1px solid #cdcdcd; */
+} 
+#k1{
+    width: 196px;
+    height: 200px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5%;
+}
+#k2{
+    width: 196px;
+    height: 298px;
+    border: 1px solid #cdcdcd;
+    /* clear: both; */
+    border-radius: 5%;
+}
+#c1{
+    width: 599px;
+    height: 150px;
+    border: 1px solid #cdcdcd;
+}
+#c2{
+    width: 599px;
+    height: 348px;
+    border: 1px solid #cdcdcd;
+}
+#fb{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#timkiem{
+    width: 200px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #cdcdcd;
+}
+#menu{
+    float: right;
+    font-size: 12pt;
+    color: white;
+}
+
