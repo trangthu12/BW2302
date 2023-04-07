@@ -7,7 +7,7 @@
 }
 #content{
     width: 1200px;
-    min-height: 500px;
+    min-height: 550px;
     border: 1px solid #cdcdcd;
     float: left;
     position: static;
@@ -70,9 +70,14 @@
 #timkiem{
     width: 200px;
     height: 20px;
-    margin-top: 15px;
+    border: none;
+    float: left;
+    color: #63717f;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
     margin-left: 10px;
-    color: #cdcdcd;
 }
 #menu{
     float: right;
@@ -93,7 +98,7 @@
 }
 #c3{
     width: 599px;
-    height: 50px;
+    height: 40px;
     background-color: #cdcdcd;
 }
 #c{
@@ -103,8 +108,8 @@
     border-radius: 50%;
 }
 #anh{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin-left: 10px;
     margin-top: 5px;
@@ -115,4 +120,7 @@
     margin-left: 10px;
     margin-right: 5px;
     background-color: aliceblue;
+}
+#v0{
+    margin-left: 5px;
 }

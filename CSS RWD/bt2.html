@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box{
+        border: 1px solid lightgray;
+        margin: 5px;
+        width: calc(25% -10px -2px);
+       }
+       /* .box>img{
+        width: 100%;
+       } */
+       .box p{
+        text-align: center;
+       }
+       .box:hover{
+        border: 1px solid black;
+       }
+       @media only screen and (max-width:900px){
+        .box{
+            width: calc(50% - 10px - 2px);
+        }
+       }
+       @media only screen and (max-width:700px){
+        .box{
+            width: calc(100%-10px -2px);
+        }
+       }
+       .col-4 {width: 33.33%;}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <img class="col-4" src="anh1.jpg" alt="" >
+    <p>Hello</p>
+</div>
+<div class="box">
+    <img class="col-4" src="anh2.jpeg" alt="">
+    <p>Hello</p>
+    </div>
+    <div class="box">
+        <img class="col-4" src="anh3.jpg" alt="">
+        <p>Hello</p>
+    </div>
+    <div class="box">
+            <img class="col-4" src="anh4.jpg" alt="">
+            <p>Hello</p>
+    </div>
+</body>
+</html>

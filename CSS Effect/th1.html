@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: blue;
+        }
+        .box:hover{
+            margin-left: 200px; /* dich phai 200px*/
+            border: 1px solid black;
+        }
+        .box2{
+            margin-top: 30px;
+            width: 200px;
+            height: 200px;
+            background: blue;
+        }
+        .box2:hover{
+            /* display: none; */
+            /* width: 0; */
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        -khi hover lên thì: box dịch phải 200px, có thêm border
+        -thêm 1 div class là box2, khi hover lên: biến mất.
+     -->
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>
